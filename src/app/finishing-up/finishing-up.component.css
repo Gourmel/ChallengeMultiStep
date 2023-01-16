@@ -1,0 +1,50 @@
+h1{
+    display:flex;
+    justify-content: left;
+    color:hsl(213, 96%, 18%);
+}
+
+.description{
+
+    color: hsl(231, 11%, 63%);
+    margin: 20px 0px;
+
+}
+
+.card{
+
+    position:relative;
+    background-color:white;
+    width: 80%;
+    height: auto;
+    border-radius: 3%;
+    margin: auto;
+    padding: 20px;
+        top: 90px;
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+ 
+}
+
+ .choix{
+
+        border: 1px solid hsl(231, 11%, 63%);
+        display:flex;
+        padding: 20px;
+        margin: auto;
+        gap: 20px;
+        color: hsl(231, 11%, 63%);
+    }
+
+.choix:hover{
+
+   color:hsl(213, 96%, 18%);
+}
+
+.bloc{
+
+ width: 80%;
+    display:flex;
+    flex-direction: column;
+}

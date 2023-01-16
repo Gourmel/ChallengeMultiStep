@@ -1,0 +1,21 @@
+.nav-menu {
+    width: 400px;
+    height: 180px;
+    background-image: url('src/assets/images/bg-sidebar-mobile.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+ul{
+    display : flex;
+    width : 60%;
+    height : 70%;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
